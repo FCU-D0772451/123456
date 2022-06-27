@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
-    return render_template('hello!')
+    img = "hello!"
+    return img
 
 
 if __name__ == '__main__':
