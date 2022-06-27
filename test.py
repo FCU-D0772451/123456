@@ -7,7 +7,7 @@ def login():
     return "123"
 
 @app.route('/123', methods=['GET', 'POST'])
-def login():
+def go():
     return "999"
 
 if __name__ == '__main__':
